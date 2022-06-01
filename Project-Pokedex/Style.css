@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+    text-align: center;
+    font-family: "Roboto ;Mono", monospace ;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+.img {
+    width: 180px;
+    border-radius: 50%;
+}
+#pokeType div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+    background-color: rgb(248, 248, 248);
+}
+
+#pokeStats div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
